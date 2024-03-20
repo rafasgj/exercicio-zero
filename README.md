@@ -25,11 +25,35 @@ Para realizar este trabalho você deverá utilizar a linguagem de programação
 Python, na versão 3.11 ou superior.
 
 Para isolar o ambiente de desenvolvimento, é sugerido o uso de ambientes 
+<<<<<<< HEAD
 virtuais do Pyhton, e você pode criar um ambiente virtual corretamente 
 configurado com os comandos:
 
 ```
 $ python -m venv /tmp/@REPO@
+=======
+virtuais do Pyhton
+
+```
+$ python -m venv .venv
+```
+
+Em cada seção de desenvolvimento você deve iniciar e atualizar o ambiente
+de desnevolvimento.
+
+Para inicializar o ambiente virtual no Linux ou macOS, utilize:
+
+```
+$ . .venv/bin/activate
+````
+
+Para iniciar o ambiente virtual no Windows, utilize:
+
+```
+PS > .venv/bin/activate.bat
+```
+
+```
 $ pip install -e .
 ```
 

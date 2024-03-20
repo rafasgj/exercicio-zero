@@ -22,3 +22,17 @@ sed -i "${file}" -e "
     s/@UNIV@/${UNIVERSIDADE:-"Universidade LaSalle Canoas"}/g
 "
 done
+
+if [ -f "PROFESSOR.md" ]
+then
+    REMOVE="y"
+    read -p "Remover 'PROFESSOR.md'? [S/n]" -a REMOVE
+    if [ "${REMOVE}" == "S" ] || [ "${REMOVE}" == "s" ]
+    then
+        echo "Removendo arquivo 'PROFESSOR.md'."
+        git rm -f "${TOPDIR}/PROFESSOR.md"
+    else
+        echo "Não esqueça de remover o arquivo PROFESSOR.md antes de publicar o exercício."
+    fi
+fi
+

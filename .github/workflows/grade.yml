@@ -2,7 +2,6 @@
 # See the file COPYING for license details.
 ---
 name: Avaliação
-run-name: 
 on:
   - push
   - pull_request
