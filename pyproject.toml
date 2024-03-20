@@ -1,0 +1,47 @@
+[project]
+name = "@HOMEWORK@"
+description = "Trabalho @WORKCODE@ da disciplina @DISC@, do curso de @CURSO@, da @UNIV@."
+readme = "README.md"
+version = "@WORKNUM@.@MONTH@.@YEAR@"
+requires-python = ">=3.11"
+license = { file="COPYING" }
+
+classifiers = [
+  "Intended Audience :: Education",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+]
+
+dependencies = [
+   "black", "pylint", "flake8", "pydocstyle", "behave", "pytest"
+]
+
+[project.optional-dependencies]
+tox = [ "tox" ]
+
+[project.urls]
+homepage = "https://github.com/rafasgj/@REPO@"
+repository = "https://github.com/rafasgj/@REPO@"
+issues = "https://github.com/rafasgj/@REPO@/issues"
+pull_requests = "https://github.com/rafasgj/@REPO@/pulls"
+discussions = "https://github.com/rafasgj/@REPO@/discussions"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+# line-length = 79
+target-version = ['py311', 'py312']
+include = '\.pyi?$'
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+pythonpath = "."
+
+# pylint configuration
+[tool.pylint.'BASIC']
+# max-line-length = 79
+max-attributes = 10
+good-names = [
+    "i", "j", "k", "x", "y"
+]

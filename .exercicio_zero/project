@@ -1,0 +1,10 @@
+# Configuração do exercício
+HOMEWORK="<disciplina>-<ano>-T<num>"
+USERNAME="exercicio_zero"
+REPOSITORY="<disciplina>-T<num>"
+WORKNUM="<num>"
+DISCIPLINA="<disciplina>"
+# CURSO=""
+# UNIVERSIDADE=""
+# MONTH=""
+# YEAR=""
