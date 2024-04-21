@@ -3,7 +3,6 @@
 ---
 name: Avaliação
 on:
-  - push
   - pull_request
 jobs:
   lint_check:
