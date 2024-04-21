@@ -6,7 +6,7 @@ Preparação para a execução do trabalho
 --------------------------------------
 
 Para iniciar este trabalho, faça um _fork_ do repositório 
-[https://github.com/@USER@/@REPO@](https://github.com/@USER@/@REPO@)
+[https://github.com/@USERNAME@/@REPO@](https://github.com/@USERNAME@/@REPO@)
 para o seu usuário do Github.
 
 Siga as orientações para a preparação do ambiente de desenvolvimento 
@@ -79,7 +79,7 @@ Entrega
 
 Para entregar o trabalho, faça commit do código, envie para o seu _fork_ no 
 Github, e abra um _pull request_ contra o
-[repositório original](https://github.com/@USER@/@REPO@).
+[repositório original](https://github.com/@USERNAME@/@REPO@).
 
 O título do _pull request_ deve conter o nome do aluno que o está criando. 
 Na mensagem deve constar o nome completo do autor do _pull request_, e de 
@@ -95,4 +95,4 @@ Discussões Online
 -----------------
 
 Dúvidas e disccussões sobre o trabalho podem ser realizadas utilizando as
-[discussões do Github](https://github.com/@USER@/@REPO@/discussions).
+[discussões do Github](https://github.com/@USERNAME@/@REPO@/discussions).

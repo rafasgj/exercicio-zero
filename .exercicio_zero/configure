@@ -15,7 +15,7 @@ do
 echo "Processing ${file}"
 sed -i "${file}" -e "
     s/@HOMEWORK@/${HOMEWORK}/g
-    s/@USER@/${USERNAME}/g
+    s/@USERNAME@/${USERNAME}/g
     s/@REPO@/${REPOSITORIO}/g
     s/@WORKCODE@/${WORKCODE:-T${NUMERO}}/g
     s/@WORKNUM@/${NUMERO}/g
