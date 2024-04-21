@@ -5,6 +5,10 @@ EXZERODIR="${TOPDIR}/.exercicio_zero"
 
 . "${EXZERODIR}/project" 
 
+REPOSITORIO="${REPOSITORIO:-${NICKNAME}-${YEAR}-t${WORKNUM}}"
+HOMEWORK="${HOMEWORK:-${REPOSITORIO}}"
+
+[ -z "${UNIVERSIDADE}" ] && UNIVERSIDADE="Universidade LaSalle Canoas" 
 
 for file in "${TOPDIR}/pyproject.toml" "${TOPDIR}/README.md"
 do
@@ -12,11 +16,11 @@ echo "Processing ${file}"
 sed -i "${file}" -e "
     s/@HOMEWORK@/${HOMEWORK}/g
     s/@USER@/${USERNAME}/g
-    s/@REPO@/${REPOSITORY}/g
-    s/@WORKCODE@/${WORKCODE:-T${WORKNUM}}/g
-    s/@WORKNUM@/${WORKNUM}/g
-    s/@MONTH@/${MONTH:-$(date +"%m")}/g
-    s/@YEAR@/${YEAR:-$(date +"%Y")}/g
+    s/@REPO@/${REPOSITORIO}/g
+    s/@WORKCODE@/${WORKCODE:-T${NUMERO}}/g
+    s/@WORKNUM@/${NUMERO}/g
+    s/@MONTH@/${MES:-$(date +"%m")}/g
+    s/@YEAR@/${ANO:-$(date +"%Y")}/g
     s/@DISC@/${DISCIPLINA}/g
     s/@CURSO@/${CURSO:-"Ciência da Computação"}/g
     s/@UNIV@/${UNIVERSIDADE:-"Universidade LaSalle Canoas"}/g

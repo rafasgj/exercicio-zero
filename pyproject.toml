@@ -1,6 +1,6 @@
 [project]
-name = "@HOMEWORK@"
-description = "Trabalho @WORKCODE@ da disciplina @DISC@, do curso de @CURSO@, da @UNIV@."
+name = "@REPO@"
+description = "Trabalho @WORKCODE@ da disciplina @DISC@, do curso de @CURSO@, @UNIVERSIDADE@."
 readme = "README.md"
 version = "@WORKNUM@.@MONTH@.@YEAR@"
 requires-python = ">=3.11"
@@ -19,11 +19,11 @@ dependencies = [
 tox = [ "tox" ]
 
 [project.urls]
-homepage = "https://github.com/rafasgj/@REPO@"
-repository = "https://github.com/rafasgj/@REPO@"
+homepage = "https://github.com/@USERNAME@/@REPO@"
+repository = "https://github.com/@USERNAME@/@REPO@"
 issues = "https://github.com/rafasgj/@REPO@/issues"
-pull_requests = "https://github.com/rafasgj/@REPO@/pulls"
-discussions = "https://github.com/rafasgj/@REPO@/discussions"
+pull_requests = "https://github.com/@USERNAME/@REPO@/pulls"
+discussions = "https://github.com/@USERNAME@/@REPO@/discussions"
 
 [build-system]
 requires = ["setuptools"]

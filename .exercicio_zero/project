@@ -1,10 +1,20 @@
 # Configuração do exercício
-HOMEWORK="<disciplina>-<ano>-T<num>"
-USERNAME="exercicio_zero"
-REPOSITORY="<disciplina>-T<num>"
-WORKNUM="<num>"
+# Username do Github
+USERNAME="exercicios-programacao"
+# Nome completo da disciplina
 DISCIPLINA="<disciplina>"
+# "apelido da disciplina (sem espaços)
+NICKNAME=""
+# Número do trabalho
+NUMERO="<num>"
+# Nome da Instituição
+UNIVERSIDADE=""
+# Título do trabalho (Default: $NICKNAME-$YEAR-t$WORKNUM)
+# HOMEWORK=""
+# Nome do repositório (Default: $NICKNAME-$YEAR-t$WORKNUM)
+# REPOSITORIO=""
+# Nome do curso (default: Ciência da Computação)
 # CURSO=""
-# UNIVERSIDADE=""
-# MONTH=""
-# YEAR=""
+# Mês e ano em que o exercício será aplicado (default: mês atual)
+# MES=""
+# ANO=""
