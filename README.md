@@ -1,7 +1,6 @@
 @HOMEWORK@
 ====================
 
-Exemplo de projeto com avaliação automática de resultados.
 
 Preparação para a execução do trabalho
 --------------------------------------
@@ -51,14 +50,14 @@ desenvolvimento, com as dependências necessárias para o desenvolvimento
 do projeto:
 
 ```
-$ pip install -e .
+pip install -e .
 ```
 
 Se você quiser utilizar o `tox` para executar os testes, você deve instalar
 o ambiente com a opção `tox`:
 
 ```
-$ pip install -e .[tox]
+pip install -e .[tox]
 ```
 
 
